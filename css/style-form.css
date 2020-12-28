@@ -1,7 +1,31 @@
 .form-box{
-    background-color: white;
+    background-color: #b3c1ce;
     text-align: center;
+    padding: 30px;
 }
-.form-box form{
-    background-color: green;
+.form-box .inner-form{
+    background-color: white;
+    border-radius: 5%;
+    margin: 20px 15%;
+    padding: 20px;
+}
+.form-box .inner-form form{
+    
+    display: flex;
+    flex-flow: column;
+}
+.form-box .inner-form form .row{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px 20px;
+}
+.form-box .inner-form form .row input{
+    width: 30%;
+    padding: 15px;
+    margin: 0 5px;
+}
+.form-box .inner-form form .row textarea{
+    width: 100%;
+    height: 150px;
+    padding: 15px;
 }

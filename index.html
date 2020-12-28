@@ -95,12 +95,22 @@
             Rem eligendi cum velit voluptas quo ipsa, ratione, tenetur a ullam dignissimos ipsum ex. Esse, earum unde vitae repudiandae, sequi possimus, sed reiciendis sint dolore praesentium reprehenderit minus! Expedita, laudantium?
         </div>
         <div class="form-box">
-            <span>Contattami</span>
-            <form action="php/form.php" method="post">
-                <input type="text" name="nome">
-                <input type="text" name="cognome">
-                <input type="email" name="mail">
-            </form>
+            <div class="inner-form">
+                <span>Contattami</span>
+                <form action="php/form.php" method="post">
+                    <div class="row">
+                        <input type="text"  placeholder="Nome" name="nome">
+                        <input type="text"  placeholder="Cognome" name="cognome">
+                        <input type="email" placeholder="la tua mail"  name="mail">
+                    </div>
+                    <div class="row">
+                        <textarea name="messaggio" placeholder="Messaggio"></textarea>
+                    </div> 
+                    <div class="row">
+                        <input type="submit">
+                    </div>               
+                </form>
+            </div>
         </div>
         <div class="footer">
             <div class="inner-footer">
