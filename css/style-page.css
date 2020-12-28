@@ -9,15 +9,14 @@
     flex-flow: column;
 }
 .content{
-    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
 }
 .content .box{
     background-color: #b3c1ce;
     margin: 20px 15px;
     text-align: center;
-}
-.content .box.rounded{
-    border-radius: 5%;
 }
 .content .box .inner-box{
     display: flex;
@@ -31,4 +30,6 @@
 .content .box .title{
     text-align: end;
     font-size: x-large;
+    padding: 15px;
+    background-color: white;
 }
