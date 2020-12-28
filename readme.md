@@ -1,4 +1,4 @@
-#AG Portfolio
+# AG Portfolio
 
-##Cos'è ?
+## Cos'è ?
 un portfolio dove raccogliere tutti i miei lavori
