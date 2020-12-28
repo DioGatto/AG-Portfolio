@@ -8,3 +8,27 @@
     display: flex;
     flex-flow: column;
 }
+.content{
+    
+}
+.content .box{
+    background-color: #b3c1ce;
+    margin: 20px 15px;
+    text-align: center;
+}
+.content .box.rounded{
+    border-radius: 5%;
+}
+.content .box .inner-box{
+    display: flex;
+    flex-flow: row;
+    padding: 35px;
+    justify-content: space-around;
+}
+.content .box .inner-box a img{
+    width: 200px;
+}
+.content .box .title{
+    text-align: end;
+    font-size: x-large;
+}
