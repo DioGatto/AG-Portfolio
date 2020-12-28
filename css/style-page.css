@@ -1,0 +1,10 @@
+.page{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    background-color: #5c8ba9;
+    font-size: x-large;
+    display: flex;
+    flex-flow: column;
+}

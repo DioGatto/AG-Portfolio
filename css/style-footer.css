@@ -1,0 +1,17 @@
+.footer{
+    background-color: grey;
+}
+.footer .inner-footer{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    font-size: xx-large;
+}
+.footer .inner-footer .social{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.footer .inner-footer .social a img{
+    width: 32px;
+}
