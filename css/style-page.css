@@ -1,5 +1,5 @@
 .page{
-    background-color: #5c8ba9;
+    background-color: #5684ca;
     font-size: x-large;
     display: flex;
     flex-flow: column;
@@ -10,7 +10,7 @@
     justify-content: space-evenly;
 }
 .content .box{
-    background-color: #b3c1ce;
+    background-color: #abc4dc;
     margin: 20px 15px;
     text-align: center;
 }
