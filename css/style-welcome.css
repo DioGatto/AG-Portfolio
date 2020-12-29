@@ -1,15 +1,18 @@
-.welcome{
+.welcome .inner{
     display: flex;
     flex-flow: column;
     text-align: center;
     justify-content: space-around;
-    padding: 10% 20% 50%;
+    margin: 10% 20% 50%;
+    padding: 2%;
+    border: 5px solid white;
+    border-radius: 5%;
 }
-.welcome .top{
+.welcome .inner .top{
     display: flex;
     flex-flow: column;
 }
-.welcome .bottom a{
+.welcome .inner .bottom a{
     background-color: #5b5b9c;    
     padding: 25px;
     color: white;
@@ -19,7 +22,7 @@
     border-radius: 5px;
     margin: 50px 10px 0;
 }
-.welcome .bottom{
+.welcome .inner .bottom{
     display: flex;
     flex-flow: row;
     justify-content: space-around;

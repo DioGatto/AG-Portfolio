@@ -9,13 +9,15 @@
     <div class="page">
         <div class="content">
             <div class="welcome">
-                <div class="top">
-                <h1>Ciao! sono Andrea</h1>
-                <h2>Sono un programmatore con una forte passione per quest'arte</h2>
-                </div>
-                <div class="bottom">
-                    <a href="curriculum.php">Visualizza il mio Portfolio</a>
-                    <a href="portfolio.php">Visualizza il mio Curriculum</a>
+                <div class="inner">
+                    <div class="top">
+                    <h1>Ciao! sono Andrea</h1>
+                    <h2>Sono un programmatore con una forte passione per quest'arte</h2>
+                    </div>
+                    <div class="bottom">
+                        <a href="curriculum.php">Visualizza il mio Portfolio</a>
+                        <a href="portfolio.php">Visualizza il mio Curriculum</a>
+                    </div>
                 </div>
             </div>
         </div>
