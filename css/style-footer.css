@@ -6,11 +6,13 @@
     flex-flow: column;
     text-align: center;
     font-size: xx-large;
+    margin: 25px;
 }
 .footer .inner-footer .social{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    margin: 0 25%;
 }
 .footer .inner-footer .social a img{
     width: 32px;

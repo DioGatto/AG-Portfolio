@@ -1,8 +1,4 @@
 .page{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 80%;
     background-color: #5c8ba9;
     font-size: x-large;
     display: flex;
@@ -34,8 +30,19 @@
     padding: 15px;
     background-color: white;
 }
+.content .box .description{
+    padding: 50px;
+}
 @media only screen and (max-width: 1200px) {
     .page{
         position: inherit;
     }
-  }
+}
+@media only screen and (min-width: 1200px){
+    .page{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
+    }
+}
