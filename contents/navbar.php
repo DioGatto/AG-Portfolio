@@ -10,12 +10,12 @@
                     </a>
                 </div>
                 <div class="section">
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="curriculum.html">Curriculum</a>
+                    <a href="portfolio.php">Portfolio</a>
+                    <a href="curriculum.php">Curriculum</a>
                 </div>
                 <div class="section">
-                    <a href="curriculum.html#me">chi sono ?</a>
-                    <a href="curriculum.html#studies">i miei studi</a>
+                    <a href="curriculum.php#me">chi sono ?</a>
+                    <a href="curriculum.php#studies">i miei studi</a>
                 </div>
                 <div class="section">
                     <a href="#contactme">contattami</a>
