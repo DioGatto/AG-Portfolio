@@ -12,6 +12,7 @@
             <link rel="stylesheet" href="css/style-page.css">
             <link rel="stylesheet" href="css/style-footer.css">
             <link rel="stylesheet" href="css/style-form.css">
+            <link rel="stylesheet" href="css/style-table.css">
             <link rel="stylesheet" href="css/style-welcome.css">
 
             <title>AG Portfolio</title>
