@@ -23,17 +23,26 @@
     background-color: white;
     color: #00517c;
 }
-.navbar .inner-nav .section#me img{
+.navbar .inner-nav .section#me a img{
     width: 100px;
     border-radius: 100%;
     margin: 0 auto;
+}
+.navbar .inner-nav .section#me a{
+    display: flex;
+    flex-flow: column;
+    color: black;
+}
+.navbar .inner-nav .section#me a:hover{
+    color: black;
+    background-color: #3c5c97;
 }
 .navbar .inner-nav .section#social{
     flex-flow: row nowrap;
     justify-content: space-around;
 }
 .navbar .inner-nav .section#social a:hover{
-    background-color: #00517c;
+    background-color: #3c5c97;
     color: black;
 }
 .navbar .inner-nav .section#social img{
