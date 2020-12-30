@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="it">
-<?php include('contents/heading.php'); ?>
+<?php include('contents/heading.html'); ?>
 <body>
-<?php include('contents/navbar.php'); ?>
+<?php include('contents/navbar.html'); ?>
     <div class="page">
         <div class="content">
             <div class="title">Qui puoi vedere tutti i miei lavori</div>
@@ -40,8 +40,8 @@
                 </div>
             </div>
         </div>
-        <?php include('contents/form.php'); ?>
-        <?php include('contents/footer.php'); ?>
+        <?php include('contents/form.html'); ?>
+        <?php include('contents/footer.html'); ?>
     </div>
 </body>
 </html>

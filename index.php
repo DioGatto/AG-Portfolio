@@ -3,9 +3,9 @@
 <script>
     alert("Attenzione, la pagina è W.I.P");
 </script>
-<?php include('contents/heading.php'); ?>
+<?php include('contents/heading.html'); ?>
 <body>
-<?php include('contents/navbar.php'); ?>
+<?php include('contents/navbar.html'); ?>
     <div class="page">
         <div class="content">
             <div class="welcome">
@@ -21,8 +21,8 @@
                 </div>
             </div>
         </div>
-        <?php include('contents/form.php'); ?>
-        <?php include('contents/footer.php'); ?>
+        <?php include('contents/form.html'); ?>
+        <?php include('contents/footer.html'); ?>
     </div>
 </body>
 </html>
