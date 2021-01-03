@@ -6,27 +6,15 @@
         "link":"https://github.com/DioGatto/AG-Portfolio"
     },
     {
-        "titolo":"AG-Portfolio",
-        "immagine":"database/jobs/AG-Portfolio/image.png",
-        "descrizione":"Il portfolio che stai visualizzando",
-        "link":"https://github.com/DioGatto/AG-Portfolio"
+        "titolo":"House Utils",
+        "immagine":"database/jobs/HouseUtils/image.png",
+        "descrizione":"Un programma per aiutare nella gestione degli affitti e delle relative utenze",
+        "link":"#"
     },
     {
-        "titolo":"AG-Portfolio",
-        "immagine":"database/jobs/AG-Portfolio/image.png",
-        "descrizione":"Il portfolio che stai visualizzando",
-        "link":"https://github.com/DioGatto/AG-Portfolio"
-    },
-    {
-        "titolo":"AG-Portfolio",
-        "immagine":"database/jobs/AG-Portfolio/image.png",
-        "descrizione":"Il portfolio che stai visualizzando",
-        "link":"https://github.com/DioGatto/AG-Portfolio"
-    },
-    {
-        "titolo":"AG-Portfolio",
-        "immagine":"database/jobs/AG-Portfolio/image.png",
-        "descrizione":"Il portfolio che stai visualizzando",
-        "link":"https://github.com/DioGatto/AG-Portfolio"
+        "titolo":"Danilo DJ",
+        "immagine":"database/jobs/DaniloDJ/image.png",
+        "descrizione":"Un sito nel quale il proprietario può pubblicare le sue canzoni con articoli",
+        "link":"#"
     }
 ]
