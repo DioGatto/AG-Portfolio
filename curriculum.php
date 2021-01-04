@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="it">
-<?php include('contents/heading.html'); ?>
+<?php include('contents/heading.php'); ?>
 <body>
-<?php include('contents/navbar.html'); ?>
+<?php include('contents/navbar.php'); ?>
     <div class="page">
         <div class="content">
             <div class="box">
@@ -144,8 +144,8 @@
                 </div>
             </div>
         </div>
-        <?php include('contents/form.html'); ?>
-        <?php include('contents/footer.html'); ?>
+        <?php include('contents/form.php'); ?>
+        <?php include('contents/footer.php'); ?>
     </div>
 </body>
 </html>
