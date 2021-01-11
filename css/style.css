@@ -1,32 +1,33 @@
 /*global*/
 :root{
-    --nav-background:blue;
-    --nav-text-color:white;
+    --nav-background:#363946;
+    --nav-text-color:#defffc;
 
-    --content-background:yellow;
+    --content-background:#8B85C1;
 
     --welcome-border:red;
     --welcome-color:purple;
     --welcome-button-color:white;
     --welcome-button-background:purple;
 
-    --portfolio-section-background:lightgreen;
-    --portfolio-section-title-background:red;
+    --portfolio-section-background:#9BA2FF;
+    --portfolio-section-title-background:#3D5A6C;
     --portfolio-section-button-hover-background:white;
     --portfolio-section-button-hover-color:black;
-    --portfolio-section-button-demo-background:black;
-    --portfolio-section-button-demo-color:white;
-    --portfolio-section-button-project-background:purple;
+    --portfolio-section-button-demo-background:#E1CE7A;
+    --portfolio-section-button-demo-color:black;
+    --portfolio-section-button-project-background:#02111B;
     --portfolio-section-button-project-color:white;
-    --portfolio-section-button-git-background:darkgrey;
-    --portfolio-section-button-git-color:black;
+    --portfolio-section-button-git-background:#24292e;
+    --portfolio-section-button-git-color:#f6f8fa;
 
-    --curriculum-section-background:cyan;
-    --curriculum-section-title-background:white;
+    --curriculum-section-background:#6E75A8;
+    --curriculum-section-title-background:#09BC8A;
 
-    --form-background:green;
+    --form-background:#007C77;
+    --form-input-background:#BFD7EA;
 
-    --footer-background:grey;    
+    --footer-background:C2D3CD;    
 }
 *{
     font-family: 'Montserrat', sans-serif;
@@ -150,7 +151,7 @@ nav .inner .item .social :hover{
 }
 .portfolio section .top .title{
     background: var(--portfolio-section-title-background);
-    color: black;
+    color: white;
     padding: 2%;
     text-align: right;
     font-size: 1.5rem;
@@ -236,9 +237,11 @@ form input{
     height: 2rem;
     border: none;
     margin-bottom: 2%;
+    background: var(--form-input-background);
 }
 form textarea{
     border: none;
+    background: var(--form-input-background);
 }
 /*footer*/
 footer{
@@ -335,7 +338,7 @@ footer .inner .social a img{
     }
     .portfolio section .top{
         background: var(--portfolio-section-title-background);
-        color: black;
+        color: white;
         padding: 2%;
         font-size: 1.5rem;
         text-align: right;
@@ -425,9 +428,11 @@ footer .inner .social a img{
         height: 2rem;
         border: none;
         margin-bottom: 2%;
+        background: var(--form-input-background);
     }
     form textarea{
         border: none;
+        background: var(--form-input-background);
     }
     /*footer*/
     footer{
