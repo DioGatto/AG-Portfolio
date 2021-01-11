@@ -1,0 +1,189 @@
+body{
+    display: flex;
+    flex-flow: column;
+}
+/*nav*/
+nav{
+    background: var(--nav-background); 
+    height: 100vh;
+}
+nav .inner{
+    display: flex;
+    flex-flow: column;
+    margin: 10%;
+}
+.nav .inner .bottom{
+    display: flex;
+    flex-flow: row;
+}
+nav .inner a#heading{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+nav .inner a#heading img{
+    width: 50%;
+    align-self: center;
+    border-radius: 50%;
+}
+nav .inner a#heading span{
+    align-self: center;
+    font-size: x-large;
+}
+nav .inner .item{
+    display: flex;
+    flex-flow: column;   
+    margin: 0 0 15% 0;
+}
+nav .inner .item a{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    font-size: x-large;
+}
+nav .inner .item a:hover{
+    color: var(--nav-background);
+    background-color: var(--nav-text-color);
+}
+nav .inner .item .social{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 20% 15%;
+}
+nav .inner .item .social a img{
+    width: 32px;
+}
+nav .inner .item .social :hover{
+    background: var(--nav-background);
+}
+/*page*/
+.page .content{
+    background: var(--content-background);
+}
+/*welcome*/
+.welcome{
+    display: none;
+}
+/*portfolio*/
+.portfolio{
+    display: flex;
+    flex-flow: column wrap;
+}
+.portfolio section{
+    background: var(--portfolio-section-background);
+    margin: 20px 0;
+    height: 100%;
+    width: 100%;
+}
+.portfolio section .top{
+    background: var(--portfolio-section-title-background);
+    color: black;
+    padding: 2%;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.portfolio section .middle{
+    padding: 2%;
+    display: flex;
+    flex-flow: column;
+}
+.portfolio section .middle .description{
+    flex: 1 0 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.portfolio section .bottom{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+.portfolio section .bottom a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+.portfolio section .bottom a.demo{
+    background: var(--portfolio-section-button-demo-background);
+    color: var(--portfolio-section-button-demo-color);
+}
+.portfolio section .bottom a.project{
+    background: var(--portfolio-section-button-project-background);
+    color: var(--portfolio-section-button-project-color);
+}
+.portfolio section .bottom a.git{
+    background: var(--portfolio-section-button-git-background);
+    color: var(--portfolio-section-button-git-color);
+}
+.portfolio section .bottom a:hover{
+    background: var(--portfolio-section-button-hover-background);
+    color: var(--portfolio-section-button-hover-color);
+}*/
+/*curriculum*/
+.curriculum{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    margin: 2% 5%;
+}
+.curriculum section{
+    background: var(--curriculum-section-background);
+    margin-bottom: 2rem;
+}
+.curriculum section .title{
+    background: var(--curriculum-section-title-background);
+    color: black;
+    padding: 2%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+.curriculum section .description{
+    font-size: 1.2rem;
+    margin: 2% 5%;
+}
+.curriculum section table{
+    width: 100%;
+    overflow-x: auto;
+}
+/*form*/
+.form-box{
+    background: var(--form-background);
+    padding: 1%;
+    padding-bottom: 2%;
+}
+form{
+    margin: 2% 5%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+form label{
+    font-size: large;
+}
+form input{
+    height: 2rem;
+    border: none;
+    margin-bottom: 2%;
+}
+form textarea{
+    border: none;
+}
+/*footer*/
+footer{
+    background: var(--footer-background);
+}
+footer .inner{
+    margin: 0 5%;
+    padding: 2%;
+    text-align: center;
+}
+footer .inner span{
+    font-size: x-large;
+}
+footer .inner .social a img{
+    width: 32px;
+}
