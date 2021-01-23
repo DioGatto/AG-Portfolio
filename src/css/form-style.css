@@ -1,0 +1,35 @@
+/*form*/
+.form-box{
+    background-color: var(--form-background);
+    color: var(--form-color);
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    margin: 50px 10%;
+}
+form .top{
+    display: flex;
+    justify-content: space-between;
+}
+form .top input{
+    width: 45%;
+}
+form .bottom{
+    display: flex;
+    flex-flow: column;
+}
+form div input{
+    font-size: x-large;
+    height: 50px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid var(--form-input-border);
+    color: var(--form-input-color);
+    background: var(--form-input-background);
+}
+form div input:focus{
+    outline: none;
+    border-bottom: 2px solid var(--form-input-border-focus);
+}

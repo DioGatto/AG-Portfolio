@@ -1,0 +1,30 @@
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background: var(--navbar-background);
+    padding: 20px;
+}
+.navbar div a{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 5px;
+}
+.navbar .home a{
+    color: var(--navbar-title-color);
+    background: var(--navbar-title-background);
+}
+.navbar .home a:hover{
+    color: var(--navbar-title-color-hover);
+    background: var(--navbar-title-background-hover);
+}
+.navbar .links a{
+    background-color: var(--navbar-link-background);    
+    color: var(--navbar-link-color);
+}
+.navbar .links a:hover{
+    color: var(--navbar-link-color-hover);
+    background: var(--navbar-link-background-hover);
+}

@@ -1,0 +1,15 @@
+/*footer*/
+.footer{
+    background: --footer-background;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.footer .inner{
+    margin: 0 15%;
+    display: flex;
+    flex-flow: column;
+}
+.footer .inner .title{
+    font-size: x-large;
+    color: black;
+}
