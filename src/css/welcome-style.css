@@ -1,0 +1,52 @@
+/*welcome*/
+.welcome{
+    border-radius: 10px;
+    font-size: x-large;
+    padding: 5% 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+.welcome .primary{
+    color: red;
+}
+.welcome .text{
+    display: flex;
+    flex-flow: column;
+    margin: 0 25%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.welcome .text div{
+    margin: 0;
+}
+.welcome .text .row, .welcome .text .row div{
+    display: inline-block;
+}
+.welcome .button-list{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 20%;
+}
+.welcome .button-list a{
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: red 3px solid;
+    color: white;
+    background: #A831B2;
+    border: black 2px solid;
+}
+.welcome .button-list a:hover{
+    background: #B761CB;
+}
+.welcome .button-list a#full{
+    background: red;
+    border: black 3px solid;
+}
+.welcome .button-list a#full:hover{
+    background: yellow;
+    color: black;
+}
