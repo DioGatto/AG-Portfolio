@@ -3,6 +3,6 @@
     min-height: 90vh;
     background: var(--content-background);
 }
-content .inner{
-    margin: 20px;
+.content div{
+    margin: 20px 30px;
 }

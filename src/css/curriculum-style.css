@@ -1,1 +1,40 @@
 /*curriculum*/
+.curriculum section{
+    margin: 20px 0;
+    padding: 0 20px 15px;
+}
+.curriculum section .title{
+    padding: 0;
+    font-size: x-large;
+    background: var(--curriculum-title-background);
+    color: var(--curriculum-title-color);
+    padding: 20px;
+    margin-bottom: 0;
+}
+.curriculum section .description{
+    display: flex;
+    flex-flow: row;
+    background: var(--curriculum-description-background);
+    margin-top: 0;
+}
+.curriculum section#me img{
+    width: 20%;
+    border-radius: 50%;
+}
+.curriculum section#me .description p{
+    font-size: x-large;
+    margin-left: 25px;
+    color: white;
+}
+.curriculum section table{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.curriculum section table tr{
+    border-collapse: none;
+    border-bottom: solid red 2px;
+}
+.curriculum section table tr td img{
+    width: 32px;
+}
