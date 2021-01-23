@@ -1,0 +1,489 @@
+/*global*/
+:root{
+    --nav-background:#fbf9ff;
+    --nav-text-color:black;
+    --nav-hover-background:#a115b9;
+    
+
+    --content-background:#8B85C1;
+
+    --welcome-border:red;
+    --welcome-color:#A115B9;
+    --welcome-button-color:white;
+    --welcome-button-background:#A115B9;
+
+    --portfolio-section-background:#9BA2FF;
+    --portfolio-section-title-background:#3D5A6C;
+    --portfolio-section-button-hover-background:white;
+    --portfolio-section-button-hover-color:black;
+    --portfolio-section-button-demo-background:#E1CE7A;
+    --portfolio-section-button-demo-color:black;
+    --portfolio-section-button-project-background:#02111B;
+    --portfolio-section-button-project-color:white;
+    --portfolio-section-button-git-background:#24292e;
+    --portfolio-section-button-git-color:#FBF9FF;
+
+    --curriculum-section-background:#6E75A8;
+    --curriculum-section-title-background:#09BC8A;
+
+    --form-background:#0B1354;
+    --form-input-background-focus:#202C59;
+    --form-input-border:#BFD7EA;
+    --form-input-color:yellow;
+
+    --footer-background:grey;    
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+@media (min-width:900px){
+    body{
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100%;
+    }
+    /*nav*/
+    nav{
+        background: var(--nav-background); 
+        width: 25vw;
+        height: 100vh;
+    }
+    nav .inner{
+        display: flex;
+        flex-flow: column;
+        margin: 10%;
+    }
+    nav .inner a#heading{
+        display: flex;
+        flex-flow: column;
+        text-decoration: none;
+        color: var(--nav-text-color);
+    }
+    nav .inner a#heading img{
+        width: 50%;
+        align-self: center;
+        border-radius: 50%;
+    }
+    nav .inner a#heading span{
+        align-self: center;
+        font-size: x-large;
+    }
+    nav .inner .item{
+        display: flex;
+        flex-flow: column;   
+        margin: 0 0 15% 0;
+    }
+    nav .inner .item a{
+        text-decoration: none;
+        color: var(--nav-text-color);
+        font-size: x-large;
+    }
+    nav .inner .item a:hover{
+        color: var(--nav-background);
+        background-color: var(--nav-hover-background);
+    }
+    nav .inner .item .social{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        margin: 20% 15%;
+    }
+    nav .inner .item .social a img{
+        width: 32px;
+    }
+    nav .inner .item .social :hover{
+        background: var(--nav-background);
+    }
+    /*Page*/
+    .page{
+        display: flex;
+        flex-flow: column;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 100%;
+        flex: 1 0 0;
+    }
+    .page .content{
+        background: var(--content-background);
+    }
+    /*welcome*/
+    .welcome{
+        min-height: 100vh;
+    }
+    .welcome .inner{
+        margin: 10% 15%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .welcome .inner .top span{
+        display: block;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .welcome .inner .top span .primary-color{
+        color: red;
+        display: inline;
+    }
+    .welcome .inner .bottom a{
+        color: var(--welcome-button-color);
+        background: var(--welcome-button-background);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: large;
+        padding: 20px;
+        display: inline-block;
+    }
+    /*portfolio*/
+    .portfolio{
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        margin: 2% 5%;
+    }
+    .portfolio section{
+        background: var(--portfolio-section-background);
+        margin-bottom: 20px;
+        height: 100%;
+    }
+    .portfolio section .top .title{
+        background: var(--portfolio-section-title-background);
+        color: white;
+        padding: 2%;
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    .portfolio section .middle{
+        padding: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .portfolio section .middle .description{
+        flex: 1 0 0;
+        text-align: center;
+    }
+    .portfolio section .bottom{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 2%;
+    }
+    .portfolio section .bottom a{
+        padding: 20px;
+        text-decoration: none;
+        font-size: large;
+        display: inline-block;
+        margin-bottom: 2%;
+    }
+    .portfolio section .bottom a.demo{
+        background: var(--portfolio-section-button-demo-background);
+        color: var(--portfolio-section-button-demo-color);
+    }
+    .portfolio section .bottom a.project{
+        background: var(--portfolio-section-button-project-background);
+        color: var(--portfolio-section-button-project-color);
+    }
+    .portfolio section .bottom a.git{
+        background: var(--portfolio-section-button-git-background);
+        color: var(--portfolio-section-button-git-color);
+    }
+    .portfolio section .bottom a:hover{
+        background: var(--portfolio-section-button-hover-background);
+        color: var(--portfolio-section-button-hover-color);
+    }
+    /*curriculum*/
+    .curriculum{
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        margin: 2% 5%;
+    }
+    .curriculum section{
+        background: var(--curriculum-section-background);
+        margin-bottom: 2rem;
+    }
+    .curriculum section .title{
+        background: var(--curriculum-section-title-background);
+        color: black;
+        padding: 2%;
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    .curriculum section .description{
+        font-size: 1.2rem;
+        margin: 2% 5%;
+    }
+    .curriculum section table{
+        width: 100%;
+        overflow-x: auto;
+    }
+    /*form*/
+    .form-box{
+        background: var(--form-background);
+    }
+    .form-box .title{
+        font-size: 2rem;
+        color: var(--form-input-border);
+        text-align: center;
+        padding: 25px;
+    }
+    form{
+        margin: 2% 5%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    form input{
+        height: 3.2rem;
+        border: none;
+        font-size: 2.2rem;
+        border-bottom: 2px solid var(--form-input-border);
+        margin-bottom: 2%;
+        color: var(--form-input-color);
+        background: var(--form-background);
+        text-align: center;
+    }
+    form input:focus{
+        border: none;
+        outline: none;
+        border-bottom: 2px solid var(--form-input-border);
+    }
+    form textarea{
+        border: none;
+        color: var(--form-input-color);
+        background: var(--form-background);
+        font-size: 2.2rem;
+        text-align: center;
+        border-bottom: 2px solid var(--form-input-border);
+    }
+    form textarea:focus{
+        border: none;
+        outline: none;
+        border-bottom: 2px solid var(--form-input-border);
+    }
+    /*footer*/
+    footer{
+        background: var(--footer-background);
+    }
+    footer .inner{
+        margin: 5% 25%;
+    }
+    footer .inner span{
+        font-size: x-large;
+    }
+    footer .inner .social a img{
+        width: 32px;
+    }
+}
+@media (max-width:900px){
+    body{
+        display: flex;
+        flex-flow: column;
+    }
+    /*nav*/
+    nav{
+        background: var(--nav-background); 
+        height: 100vh;
+    }
+    nav .inner{
+        display: flex;
+        flex-flow: column;
+        margin: 10%;
+    }
+    .nav .inner .bottom{
+        display: flex;
+        flex-flow: row;
+    }
+    nav .inner a#heading{
+        display: flex;
+        flex-flow: column;
+        text-decoration: none;
+        color: var(--nav-text-color);
+    }
+    nav .inner a#heading img{
+        width: 50%;
+        align-self: center;
+        border-radius: 50%;
+    }
+    nav .inner a#heading span{
+        align-self: center;
+        font-size: x-large;
+    }
+    nav .inner .item{
+        display: flex;
+        flex-flow: column;   
+        margin: 0 0 15% 0;
+    }
+    nav .inner .item a{
+        text-decoration: none;
+        color: var(--nav-text-color);
+        font-size: x-large;
+    }
+    nav .inner .item a:hover{
+        color: var(--nav-background);
+        background-color: var(--nav-hover-background);
+    }
+    nav .inner .item .social{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        margin: 20% 15%;
+    }
+    nav .inner .item .social a img{
+        width: 32px;
+    }
+    nav .inner .item .social :hover{
+        background: var(--nav-background);
+    }
+    /*page*/
+    .page .content{
+        background: var(--content-background);
+    }
+    /*welcome*/
+    .welcome{
+        display: none;
+    }
+    /*portfolio*/
+    .portfolio{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .portfolio section{
+        background: var(--portfolio-section-background);
+        margin: 20px 0;
+        height: 100%;
+        width: 100%;
+    }
+    .portfolio section .top{
+        background: var(--portfolio-section-title-background);
+        color: white;
+        padding: 2%;
+        font-size: 1.5rem;
+        text-align: right;
+    }
+    
+    .portfolio section .middle{
+        padding: 2%;
+        display: flex;
+        flex-flow: column;
+    }
+    .portfolio section .middle .description{
+        flex: 1 0 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .portfolio section .bottom{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2% 0;
+    }
+    .portfolio section .bottom a{
+        padding: 20px;
+        text-decoration: none;
+        font-size: large;
+        display: inline-block;
+        margin-bottom: 2%;
+    }
+    .portfolio section .bottom a.demo{
+        background: var(--portfolio-section-button-demo-background);
+        color: var(--portfolio-section-button-demo-color);
+    }
+    .portfolio section .bottom a.project{
+        background: var(--portfolio-section-button-project-background);
+        color: var(--portfolio-section-button-project-color);
+    }
+    .portfolio section .bottom a.git{
+        background: var(--portfolio-section-button-git-background);
+        color: var(--portfolio-section-button-git-color);
+    }
+    .portfolio section .bottom a:hover{
+        background: var(--portfolio-section-button-hover-background);
+        color: var(--portfolio-section-button-hover-color);
+    }*/
+    /*curriculum*/
+    .curriculum{
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        margin: 2% 5%;
+    }
+    .curriculum section{
+        background: var(--curriculum-section-background);
+        margin-bottom: 2rem;
+    }
+    .curriculum section .title{
+        background: var(--curriculum-section-title-background);
+        color: black;
+        padding: 2%;
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    .curriculum section .description{
+        font-size: 1.2rem;
+        margin: 2% 5%;
+    }
+    .curriculum section table{
+        width: 100%;
+        overflow-x: auto;
+    }
+    /*form*/
+    .form-box{
+        background: var(--form-background);
+        padding: 1%;
+        padding-bottom: 2%;
+    }
+    form{
+        margin: 2% 5%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    form input{
+        height: 3.2rem;
+        border: none;
+        font-size: 2.2rem;
+        border-bottom: 2px solid var(--form-input-border);
+        margin-bottom: 2%;
+        color: var(--form-input-color);
+        background: var(--form-background);
+    }
+    form input:focus{
+        border: none;
+        outline: none;
+        border-bottom: 2px solid var(--form-input-border);
+    }
+    form textarea{
+        border: none;
+        color: var(--form-input-color);
+        background: var(--form-background);
+        font-size: 2.2rem;
+        border-bottom: 2px solid var(--form-input-border);
+    }
+    form textarea:focus{
+        border: none;
+        outline: none;
+        border-bottom: 2px solid var(--form-input-border);
+    }
+    /*footer*/
+    footer{
+        background: var(--footer-background);
+    }
+    footer .inner{
+        margin: 0 5%;
+        padding: 2%;
+        text-align: center;
+    }
+    footer .inner span{
+        font-size: x-large;
+    }
+    footer .inner .social a img{
+        width: 32px;
+    }
+}
